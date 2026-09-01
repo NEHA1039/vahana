@@ -1,0 +1,14 @@
+com\vahana\dto\LocationPingRequest.class
+com\vahana\repository\VehicleRepository.class
+com\vahana\service\VehicleService.class
+com\vahana\dto\VehicleWithLocationResponse.class
+com\vahana\entity\LocationPing.class
+com\vahana\VahanaApplication.class
+com\vahana\exception\InvalidLocationException.class
+com\vahana\exception\GlobalExceptionHandler.class
+com\vahana\entity\Vehicle.class
+com\vahana\dto\VehicleRequest.class
+com\vahana\controller\VehicleController.class
+com\vahana\exception\VehicleNotFoundException.class
+com\vahana\repository\LocationPingRepository.class
+com\vahana\entity\VehicleStatus.class

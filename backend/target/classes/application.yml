@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: vahana-backend
+
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/vahana}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:your_mysql_password}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
+
+logging:
+  level:
+    com.vahana: DEBUG
